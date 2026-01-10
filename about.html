@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ahofama - Leading Software Company in Ghana – Web & App Development</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Web Applications Development" name="keywords">
+    <meta content="Desktop Applications Development" name="keywords">
+    <meta content="POS system in Ghana" name="keywords">
+    <meta content="Mobile Apps Development - Android or IOS" name="keywords">
+    <meta content="Graphic Design" name="keywords">
+    <meta
+        content="Ahofama is a trusted software company in Ghana delivering custom web, mobile, and business software solutions. We help startups and enterprises grow with secure, scalable technology."
+        name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">-->
+
+    <!--Libraries Stylesheet-->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Template Stylesheet-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontawesome Stylesheet -->
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.css">
+
+    <!--  App logo in the title bar-->
+    <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-gradient" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar bg-normal d-none d-xl-block w-100">
+        <div class="container">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a class="text-light me-4"><i class="fas fa-map-marker-alt text-gradient me-2"></i>TanTra Hills
+                            - Achimota, Accra</a>
+                        <a href="tel:+233 548543206" class="text-light me-4"><i
+                                class="fas fa-phone-alt text-gradient me-2"></i>+233 548543206</a>
+                        <a href="mailto:example@gmail.com" class="text-light me-0"><i
+                                class="fas fa-envelope text-gradient me-2"></i>Ahofama@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h2 class="text-dark mb-0"><img src="img/logo.png" alt="Logo"></h2>
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <a href="#" class="nav-item nav-link">Our Services</a>
+                        <a href="#" class="nav-item nav-link">Store</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item">Affiliate</a>
+                                <a href="#" class="dropdown-item">Invest In Us</a>
+                                <a href="#" class="dropdown-item">Our Testimonials</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="#" class="btn btn-gradient rounded-pill py-2 px-4">Login / Register</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Navbar & Hero End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a >Pages</a></li>
+                <li class="breadcrumb-item active text-gradient">About</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!--Main Content Starts-->
+    <!-- About Start -->
+        <div class="container-fluid about pt-5">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-gradient">About Ahofama</h4>
+                            <h1 class="display-6 mb-4 text-lg-start">Driving Digital Innovation</h1>
+                            <p class="mb-5">
+                                At Ahofama, we believe in transforming ambitious ideas into powerful 
+                                digital realities. Our mission is to empower businesses of all sizes with 
+                                innovative software solutions that drive efficiency, growth, and digital transformation.
+                            </p>
+                            <div class="row g-4 ">
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3"><i class="bi bi-code fa-2x text-gradient"></i></div>
+                                        <div>
+                                            <h4>Web Application</h4>
+                                            <p>Modern, responsive web apps that deliver exceptional user experiences.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3"><i class="bi bi-phone fa-2x text-gradient"></i></div>
+                                        <div>
+                                            <h4>Mobile Application</h4>
+                                            <p>Native and cross-platform mobile apps for iOS and Android.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3"><i class="bi bi-pc-display-horizontal fa-2x text-gradient"></i></div>
+                                        <div>
+                                            <h4>Desktop App</h4>
+                                            <p>Powerful desktop applications built for performance and reliability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3"><i class="bi bi-palette fa-2x text-gradient"></i></div>
+                                        <div>
+                                            <h4>UI/UX Design</h4>
+                                            <p>Beautiful and intuitive user interfaces designed for optimal user experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3"><i class="bi bi-gear fa-2x text-gradient"></i></div>
+                                        <div>
+                                            <h4>Customer Software</h4>
+                                            <p>Custom software development tailored to meet your specific business needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3"><i class="bi bi-router-fill fa-2x text-gradient"></i></div>
+                                        <div>
+                                            <h4>Internet Data Packs</h4>
+                                            <p>We offer affordable data packs for all networks in Ghana.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="position-relative rounded">
+                            <div class="rounded" style="margin-top: 40px;">
+                                <div class="row g-0">
+                                    <div class="col-lg-12">
+                                        <div class="rounded mb-4">
+                                            <img src="img/human_robot.jpg" class="img-fluid rounded w-100" alt="">
+                                        </div>
+                                        <div class="row gx-4 gy-0">
+                                            <div class="col-6">
+                                                <div class="counter-item bg-modern rounded text-center p-4 h-100">
+                                                    <div class="counter-item-icon mx-auto mb-3">
+                                                        <i class="fas fa-thumbs-up fa-3x text-white"></i>
+                                                    </div>
+                                                    <div class="counter-counting mb-3">
+                                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">33</span>
+                                                        <!--<span class="h1 fw-bold text-white">K +</span>-->
+                                                    </div>
+                                                    <h5 class="text-white mb-0">Customers</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="counter-item bg-modern rounded text-center p-4 h-100">
+                                                    <div class="counter-item-icon mx-auto mb-3">
+                                                        <i class="fas fa-certificate fa-3x text-white"></i>
+                                                    </div>
+                                                    <div class="counter-counting mb-3">
+                                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">108</span>
+                                                        <span class="h1 fw-bold text-white"> +</span>
+                                                    </div>
+                                                    <h5 class="text-white mb-0">Projects Completed</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded bg-normal p-4 position-absolute d-flex justify-content-center" style="width: 90%; height: 80px; top: -40px; left: 50%; transform: translateX(-50%);">
+                                <h3 class="mb-0 text-white">9+ Years Experiance</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!--Milestones Section -->
+        <section class="py-5 datapack-section" id="milestones">
+            <div class="container">
+                <div class="text-muted mb-5">
+                    <h2 class="fw-bold text-secondary">Key Milestones</h2>
+                    <p class="text-muted">
+                        From humble beginnings in 2018 to building impactful digital solutions today.
+                    </p>
+                </div>
+        
+                <div class="timeline">
+        
+                    <!-- 2018 -->
+                    <div class="timeline-item wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-gradient">2018 — Foundation</h5>
+                            <p>
+                                Ahofama was founded with a vision to build reliable and affordable software
+                                solutions for growing businesses.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- 2019 -->
+                    <div class="timeline-item wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-gradient">2019 — First Clients</h5>
+                            <p>
+                                Delivered our first enterprise and SME solutions, gaining trust and referrals
+                                across multiple industries.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- 2020 -->
+                    <div class="timeline-item wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-gradient">2020 — Digital Expansion</h5>
+                            <p>
+                                Expanded into web and mobile application development, helping businesses adapt
+                                to digital transformation.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- 2022 -->
+                    <div class="timeline-item wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-gradient">2022 — Product Innovation</h5>
+                            <p>
+                                Launched internal software products including inventory, POS, and management
+                                systems.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- 2024 -->
+                    <div class="timeline-item wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h5 class="text-gradient">2024 — Impact & Growth</h5>
+                            <p>
+                                Strengthened partnerships, supported social causes, and delivered scalable
+                                solutions to larger organizations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Milestones Section End-->
+
+        <!--Future Goals-->
+        <section class="py-5 bg-white wow fadeInUp" data-wow-delay="100" id="future-plans">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Our Plans for the Future</h2>
+                    <p class="text-muted">
+                        Building solutions that empower communities, education, and sustainable growth.
+                    </p>
+                </div>
+        
+                <div class="row g-4">
+        
+                    <!-- Plan 1 -->
+                    <div class="col-md-6 wow fadeInLeft" data-aos-delay="100">
+                        <div class="future-card h-100">
+                            <div class="future-icon">
+                                <i class="bi bi-tree text-gradient"></i>
+                            </div>
+                            <h5 class="fw-semibold">Free Agriculture Management System</h5>
+                            <p class="text-muted">
+                                We are developing a free farm management system to help farmers
+                                track crops, manage resources, monitor yields, and make smarter
+                                data-driven decisions to improve productivity and food security.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- Plan 2 -->
+                    <div class="col-md-6 wow fadeInRight" data-aos-delay="100">
+                        <div class="future-card h-100">
+                            <div class="future-icon">
+                                <i class="bi bi-mortarboard text-gradient"></i>
+                            </div>
+                            <h5 class="fw-semibold">Student Resource & Project Hub</h5>
+                            <p class="text-muted">
+                                We plan to build an online student resource center that provides
+                                free learning materials, practical project ideas, and ready-to-use
+                                student projects to support learning, innovation, and career growth.
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        <!--Future Goals End-->
+
+
+    <!--Main Content Ends-->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 bg-modern wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-gradient mb-4">About Us</h4>
+                            <p class="mb-3 text-muted">
+                                Ahofama is a leading software development company in Ghana,
+                                dedicated to delivering innovative digital solutions that empower businesses to thrive
+                                in the digital age.
+                            </p>
+                        </div>
+                        <div class="position-relative">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Enter your email">
+                            <button type="button"
+                                class="btn btn-gradient rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-gradient mb-4">Quick Links</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Cars</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>Our Team</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-gradient mb-4">Business Hours</h4>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                            <p class="text-white mb-0">09:00 am to 05:00 pm</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-white mb-2">Payment Accepted</p>
+                        <img src="img/payment.png" class="img-fluid" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-gradient mb-4">Contact Info</h4>
+                        <a href="#"><i class="fa fa-map-marker me-2"></i> TanTra Hills - Achimota, Accra</a>
+                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +233 548543206</a>
+                        <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +233 548543206</a>
+                        <div class="d-flex">
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white">&copy<a href="#" class="text-white"> Ahofama, Inc</a> - All right
+                        reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" id="back-to-top" class="btn btn-normal btn-lg-square rounded-circle back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
+
+    <!-- WhatApp -->
+    <a href="https://wa.me/233204899805" target="Maxwell" class="whatsapp-float" aria-label="Chat on WhatsApp"> <i
+            class="bi bi-whatsapp"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!--  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>-->
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

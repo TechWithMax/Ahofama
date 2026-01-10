@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ahofama - Leading Software Company in Ghana – Web & App Development</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Web Applications Development" name="keywords">
+    <meta content="Desktop Applications Development" name="keywords">
+    <meta content="POS system in Ghana" name="keywords">
+    <meta content="Mobile Apps Development - Android or IOS" name="keywords">
+    <meta content="Graphic Design" name="keywords">
+    <meta
+        content="Ahofama is a trusted software company in Ghana delivering custom web, mobile, and business software solutions. We help startups and enterprises grow with secure, scalable technology."
+        name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">-->
+
+    <!--Libraries Stylesheet-->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Template Stylesheet-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontawesome Stylesheet -->
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.css">
+
+    <!--  App logo in the title bar-->
+    <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-gradient" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar bg-normal d-none d-xl-block w-100">
+        <div class="container">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a class="text-light me-4"><i class="fas fa-map-marker-alt text-gradient me-2"></i>TanTra Hills
+                            - Achimota, Accra</a>
+                        <a href="tel:+233 548543206" class="text-light me-4"><i
+                                class="fas fa-phone-alt text-gradient me-2"></i>+233 548543206</a>
+                        <a href="mailto:example@gmail.com" class="text-light me-0"><i
+                                class="fas fa-envelope text-gradient me-2"></i>Ahofama@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h2 class="text-dark mb-0"><img src="img/logo.png" alt="Logo"></h2>
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="#" class="nav-item nav-link">Our Services</a>
+                        <a href="#" class="nav-item nav-link">Store</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item">Affiliate</a>
+                                <a href="#" class="dropdown-item">Invest In Us</a>
+                                <a href="#" class="dropdown-item">Our Testimonials</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="#" class="btn btn-gradient rounded-pill py-2 px-4">Login / Register</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-0">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/slider-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-gradient text-uppercase mb-3 animated slideInDown">Today's
+                                        Technology</h6>
+                                    <h2 class="display-3 text-white mb-4 pb-3 animated slideInDown">Software Company in
+                                        Ghana Building Smart Digital Solutions</h2>
+                                    <a href="about.html" class="btn btn-gradient py-3 px-5 animated slideInDown">Learn
+                                        More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slider-6.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-gradient text-uppercase mb-3 animated slideInDown">Ahofama Services
+                                    </h6>
+                                    <h2 class="display-3 text-white mb-4 pb-3 animated slideInDown">Custom Software
+                                        Development Services in Ghana</h2>
+                                    <a href="store.html" class="btn btn-gradient py-3 px-5 animated slideInDown">Get
+                                        Started<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slider-3.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-gradient text-uppercase mb-3 animated slideInDown">performance
+                                        security and scalability</h6>
+                                    <h2 class="display-3 text-white mb-4 pb-3 animated slideInDown">Every Solution Is
+                                        Built Using Modern Technologies</h2>
+                                    <a href="services.html" class="btn btn-gradient py-3 px-5 animated slideInDown">Learn
+                                        More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Carousel End -->
+
+    <!--Main Content Start-->
+
+    <!--Our Mission-->
+    <div class="container-fluid overflow-hidden indexAbout py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-item">
+                        <div class="pb-5">
+                            <h1 class="display-5"> Aho<span class="text-gradient">fama</span></h1>
+                            <p class="mb-0">
+                                Ahofama is software development companies in Ghana, helping
+                                startups, SMEs, and large organizations transform ideas into powerful
+                                digital products. We build modern, secure, and scalable software solutions
+                                designed to improve efficiency and drive business growth.
+                            </p>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="indexAbout-item-inner border p-4">
+                                    <div class="about-icon mb-4">
+                                        <img src="img/about-icon-1.png" class="img-fluid w-50 h-50" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-3">Our Vision</h5>
+                                    <p class="mb-0">Provide Software Solutions for African and global markets</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="indexAbout-item-inner border p-4">
+                                    <div class="aindexAbout-icon mb-4">
+                                        <img src="img/about-icon-2.png" class="img-fluid h-50 w-50" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-3">Our Object</h5>
+                                    <p class="mb-0">Help you turn ideas into powerful digital Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-item my-4">
+                            Choosing the right software company in Ghana matters.
+                            Ahofama stands out because we combine local expertise with global standards.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="rounded">
+                                    <p class="mb-2"><i class="fa fa-check-circle text-gradient me-1"></i> Web
+                                        Application Development</p>
+                                    <p class="mb-2"><i class="fa fa-check-circle text-gradient me-1"></i> Mobile
+                                        Application Development</p>
+                                    <p class="mb-2"><i class="fa fa-check-circle text-gradient me-1"></i> Graphic</p>
+                                    <p class="mb-0"><i class="fa fa-check-circle text-gradient me-1"></i> Custom
+                                        Software Development</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-flex align-items-center">
+                                <a href="service.html" class="btn btn-gradient rounded py-3 px-5">More About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="indexAbout-img">
+                        <div class="img-1">
+                            <img src="img/our-motive-1.jpg" class="img-fluid rounded h-100 w-100" alt="">
+                        </div>
+                        <div class="img-2">
+                            <img src="img/our-motive-2.jpg" class="img-fluid rounded w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Our Mission End-->
+
+    <!-- Hero Section Start -->
+    <section class="hero-cta text-white text-center">
+        <div class="container">
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-9" data-aos="zoom-in">
+                    <h1 class="fw-bold mb-3 text-secondary">
+                        Let’s Build the Future Together
+                    </h1>
+                    <p class="hero-cta-text mb-4">
+                        We design and develop scalable software solutions that empower
+                        businesses to grow faster and smarter.
+                    </p>
+                    <div class="d-flex justify-content-center flex-wrap gap-3">
+                        <a href="#contact" class="btn btn-primary btn-lg hero-btn-primary">
+                            Start Your Project
+                        </a>
+                        <a href="#services" class="btn btn-outline-light btn-lg hero-btn-secondary">
+                            View Our Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- Services Section -->
+    <section class="py-5 bg-light">
+        <div class="container" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our Services</h2>
+                <p class="text-muted">
+                    We build smart, scalable, and modern software solutions.
+                </p>
+            </div>
+            <div class="row g-4">
+
+                <!-- Service Card -->
+                <div class="col-md-4">
+                    <div class="service-card h-100 text-center p-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-code"></i>
+                        </div>
+                        <h5 class="fw-semibold">Web Development</h5>
+                        <p class="text-muted">
+                            We design and develop fast, responsive, and secure web applications
+                            tailored to your business needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-4">
+                    <div class="service-card h-100 text-center p-4 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h5 class="fw-semibold">Mobile App Development</h5>
+                        <p class="text-muted">
+                            Cross-platform mobile apps with clean UI, high performance, and
+                            seamless user experience. Whether it’s an Android or iOS.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-4">
+                    <div class="service-card h-100 text-center p-4 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-pc-display-horizontal"></i>
+                        </div>
+                        <h5 class="fw-semibold">Desktop App Development</h5>
+                        <p class="text-muted">
+                            Our team delivers solutions that grow with your business.
+                            Windows, MacOS, or Linux applications.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-4">
+                    <div class="service-card h-100 text-center p-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h5 class="fw-semibold">UI/UX Design</h5>
+                        <p class="text-muted">
+                            Engaging and intuitive designs that enhance user experience
+                            and drive customer satisfaction.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-4">
+                    <div class="service-card h-100 text-center p-4 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-router-fill"></i>
+                        </div>
+                        <h5 class="fw-semibold">Internet Data Packs</h5>
+                        <p class="text-muted">
+                            We offer affordable data packs for all networks in Ghana.
+                            Stay connected with our reliable data services.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-4">
+                    <div class="service-card h-100 text-center p-4 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="icon-box mb-3">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h5 class="fw-semibold">Custom Software</h5>
+                        <p class="text-muted">
+                            We build custom software solutions that automate processes and
+                            help businesses scale efficiently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section Ends -->
+
+    <!-- Why Us Start -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-3 g-lg-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <h2 class="fw-bold mb-3">Why Choose Us</h2>
+                    <p class="text-muted mb-4">
+                        We don’t just build software — we create reliable digital solutions
+                        that help businesses grow, scale, and succeed.
+                    </p>
+                    <div class="d-flex mb-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="choose-icon me-3">
+                            <i class="bi bi-lightning-charge"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-semibold mb-1">Fast & Reliable Delivery</h6>
+                            <p class="text-muted mb-0">
+                                We deliver high-quality software on time without compromising performance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="choose-icon me-3">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-semibold mb-1">Secure & Scalable Solutions</h6>
+                            <p class="text-muted mb-0">
+                                Our systems are built with security and future growth in mind.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="choose-icon me-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-semibold mb-1">Client-Focused Approach</h6>
+                            <p class="text-muted mb-0">
+                                We listen, understand your needs, and build solutions that truly fit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card -->
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="choose-card p-4 p-md-5">
+                        <h5 class="fw-semibold mb-3">What Makes Us Different</h5>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2" data-aos="fade-up" data-aos-delay="100">
+                                <i class="bi bi-check-circle-fill text-gradient me-2"></i>
+                                Modern technologies & best practices
+                            </li>
+                            <li class="mb-2" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-check-circle-fill text-gradient me-2"></i>
+                                Transparent communication
+                            </li>
+                            <li class="mb-2" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-check-circle-fill text-gradient me-2"></i>
+                                Dedicated post-launch support
+                            </li>
+                            <li class="mb-2" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-check-circle-fill text-gradient me-2"></i>
+                                Quick response time to your inquiries and customer support
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-gradient rounded-pill px-4" data-aos="zoom-in"
+                            data-aos-delay="400">
+                            Work With Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us End -->
+
+    <!--Our Process section-->
+    <div class="container-fluid steps py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize text-white mb-3">Ahofama<span class="text-gradient"> Process</span>
+                </h1>
+                <p class="mb-0 text-white">
+                    Our mission is to empower businesses of all sizes with innovative
+                    software solutions that drive efficiency, growth, and digital transformation.
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp " data-wow-delay="0.1s">
+                    <div class="steps-item p-4 mb-4">
+                        <h4>Get In Touch</h4>
+                        <p class="mb-0">
+                            Clients reach out to us through our website, email,
+                            phone, or social media. During this stage, we listen carefully
+                            to understand your needs, challenges, and goals.
+                        </p>
+                        <div class="setps-number">01.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="steps-item p-4 mb-4">
+                        <h4>Choose Your Service</h4>
+                        <p class="mb-0">
+                            Based on your requirements, we help you select the right
+                            service whether it’s web development, mobile app development,
+                            desktop applications, or custom software solutions.
+                        </p>
+                        <div class="setps-number">02.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="steps-item p-4 mb-4">
+                        <h4>We Build & Deliver</h4>
+                        <p class="mb-0">
+                            Our team develops your solution, keeps you updated, and delivers a high-quality product on
+                            time.
+                            We provide support and improvements as your business grows.
+                        </p>
+                        <div class="setps-number">03.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Our Process section End-->
+
+    <!-- Data Pack Section -->
+    <section class="py-5 datapack-section">
+        <div class="container">
+            <div class="row align-items-center g-4 g-lg-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-6 text-center text-lg-start wow fadeInLeft" data-wow-delay="0.2s">
+                    <h1 class="fw-bold mb-3">
+                        Buy Cheap Data Pack For All Networks
+                    </h1>
+                    <p class="text-muted mb-4">
+                        We design and develop high-quality digital solutions that help
+                        businesses grow, scale, and stand out in today’s competitive world.
+                    </p>
+                    <a href="#contact" class="btn btn-gradient btn-lg rounded-pill px-4"> Click Here to Buy</a>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-6 text-center wow fadeInRight" data-wow-delay="0.2s"><img src="img/all-networks.png" alt="Data Pack Image"
+                        class="img-fluid datapack-section-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Pack Section End -->
+
+    <!-- Orphanage Page -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title position-relative text-center mx-auto mb-3 pb-3" style="max-width: 600px;">
+                <h3 class="display-6 text-secondary">Giving Back to the Community</h3>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-3 mb-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeInLeft" data-wow-delay="0.2s">
+                        <img class="position-absolute w-100 h-100 datapack-section-image" src="img/orphans.jpg"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pb-5 wow fadeInRight" data-wow-delay="0.2s">
+                    <h4 class="mb-4">Technology with purpose. Impact beyond business.</h4>
+                    <p class="mb-5">
+                        Beyond building powerful software solutions, we believe in building hope.
+                        A portion of our profits is dedicated to supporting orphanage homes, helping provide basic
+                        needs, education support, and a better future for children in need. Every project we deliver
+                        contributes not only to business growth but also to positive social impact.
+                        When you work with us, you’re not just investing in technology —
+                        you’re helping change lives.
+                    </p>
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center justify-content-center bg-primary border-inner mb-4"
+                                style="width: 90px; height: 90px;">
+                                <i class="fa fa-heartbeat fa-2x text-white"></i>
+                            </div>
+                            <h4 class="text-uppercase">Healthy Care</h4>
+                            <p class="mb-0">As individuals and part of society, we owe it not only to ourselves but also
+                                to humanity. You can also Support us now.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center justify-content-center bg-primary border-inner mb-4"
+                                style="width: 90px; height: 90px;">
+                                <i class="fa fa-book fa-2x text-white"></i>
+                            </div>
+                            <h4 class="text-uppercase">Quality Education</h4>
+                            <p class="mb-0">The quality of education is very important, hence we intend to provide the
+                                best materials needed for better education. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>
+        <p></p>
+        </p>
+    </div>
+
+    <!-- Orphanage Page  -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial datapack-section pt-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-danger">Testimonial</h4>
+                <h1 class="display-4 mb-4">Customers Reviews</h1>
+                <p class="mb-0">Our customers are at the heart of everything we do, and their feedback fuels our
+                    commitment to excellence. With authentic testimonials and real experiences, customer reviews
+                    highlight the quality, reliability, and satisfaction we strive to deliver.
+                </p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4  col-lg-4 col-xl-3">
+                            <div class="h-100">
+                                <img src="img/mr.Azuma.jpeg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Md Adepa Joyce</h4>
+                                <p class="mb-3">CEO, Adepa Super Market</p>
+                                <div class="d-flex text-warning mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="mb-0">
+                                    What stood out was their dedication and willingness to go the extra mile.
+                                    They didn’t just build software — they built a solution that works.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4  col-lg-4 col-xl-3">
+                            <div class="h-100">
+                                <img src="img/mr.Azuma.jpeg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Michael O. Yeboah</h4>
+                                <p class="mb-3">Manager, BS Agro Chemist</p>
+                                <div class="d-flex text-warning mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                                <p class="mb-0">
+                                    Working with this team was a smooth experience from start to finish.
+                                    They understood our needs clearly and delivered a solution that exceeded
+                                    expectations. Highly recommended.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4  col-lg-4 col-xl-3">
+                            <div class="h-100">
+                                <img src="img/mr.Azuma.jpeg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Kartel's Tarven</h4>
+                                <p class="mb-3">Night Club</p>
+                                <div class="d-flex text-warning mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                                <p class="mb-0">
+                                    I'm really satistyfied with the POS System Ahofama developed for my business.
+                                    Now, managing sales and inventory has become so much easier and efficient.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4  col-lg-4 col-xl-3">
+                            <div class="h-100">
+                                <img src="img/mr.Azuma.jpeg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Azuma Rasford</h4>
+                                <p class="mb-3">IT Consultant</p>
+                                <div class="d-flex text-warning mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="mb-0">
+                                    From the first meeting to final deployment, everything was handled professionally.
+                                    We felt involved and informed at every stage.
+                                </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial End -->
+
+    <!--Main Content End-->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 bg-modern wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-gradient mb-4">About Us</h4>
+                            <p class="mb-3 text-muted">
+                                Ahofama is a leading software development company in Ghana,
+                                dedicated to delivering innovative digital solutions that empower businesses to thrive
+                                in the digital age.
+                            </p>
+                        </div>
+                        <div class="position-relative">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Enter your email">
+                            <button type="button"
+                                class="btn btn-gradient rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-gradient mb-4">Quick Links</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Cars</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>Our Team</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-gradient mb-4">Business Hours</h4>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                            <p class="text-white mb-0">09:00 am to 05:00 pm</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-white mb-2">Payment Accepted</p>
+                        <img src="img/payment.png" class="img-fluid" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-gradient mb-4">Contact Info</h4>
+                        <a href="#"><i class="fa fa-map-marker me-2"></i> TanTra Hills - Achimota, Accra</a>
+                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +233 548543206</a>
+                        <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +233 548543206</a>
+                        <div class="d-flex">
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white">&copy<a href="#" class="text-white"> Ahofama, Inc</a> - All right
+                        reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" id="back-to-top" class="btn btn-normal btn-lg-square rounded-circle back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
+
+    <!-- WhatApp -->
+    <a href="https://wa.me/233204899805" target="Maxwell" class="whatsapp-float" aria-label="Chat on WhatsApp"> <i
+            class="bi bi-whatsapp"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!--  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>-->
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
